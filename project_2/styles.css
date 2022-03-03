@@ -1,0 +1,135 @@
+body {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #FCFCFC;
+    font-size: 20px;
+    background-image: url(file:///Macintosh%20HD/Users/hmarius9526/OneDrive%20-%20Cabarrus%20County%20Schools/my_portfolio/ice.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+	}
+
+header {
+    width: 1000px;
+    height: 550px;
+    background-image: url(file:///Macintosh%20HD/Users/hmarius9526/OneDrive%20-%20Cabarrus%20County%20Schools/my_portfolio/boat.jpg);
+}
+/*Make sure to float the main so things work :)*/
+main {
+    width: 1433px;
+    height: 1800px;
+    float: left;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+img {
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+article {
+    margin-bottom: 30px;
+}
+
+.floatLeft {
+	float: left;
+}
+
+footer {
+    width: 768px;
+    height: 50px;
+    clear: both;	
+}
+h1 {
+    color: #FFF100;
+    font-family: politica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30pt;
+}
+
+h3 {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+p {
+	font-family: manofa, sans-serif;
+	font-weight: 300;
+	font-style: bold;
+}
+
+#container {
+    width: 1000px;
+    height: auto;
+    background-color: #121456;
+    margin: auto;
+}
+
+/*HELP ME OH MY GOODNESS AAAAAAAAA*/
+aside {
+    width: 204px;
+    height: 1740px;
+    float: left;
+	margin: 50px;
+}
+nav {
+    width: 760px;
+    height: 88px;
+}
+#container nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    width: 360px;
+    margin-right: 12px;
+    font-family: gravesend sans, sans-serif;
+    margin-top: 15px;
+}
+#container nav ul {
+    width: 1168px;
+    margin: auto;
+}
+
+nav a:link {
+    color: #FFE300;
+    text-decoration: none;
+}
+nav a:visited {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+nav a:hover {
+    text-decoration: none;
+    color: #FFFDA8;
+    background-color: #85B5C6;
+    border-radius: 38px;
+}
+nav a:active {
+    text-decoration: none;
+    color: #FFFFFF;
+}#user_name {
+}
+.submit_btn {
+    width: 129px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #63FFAE;
+    color: #8DF1FF;
+}
+
+.submit_btn:hover {
+	box-shadow:5px 7px 13px #000000;
+}
